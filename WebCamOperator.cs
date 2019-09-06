@@ -1,3 +1,12 @@
+using System;
+using AForge.Video;
+using System.Drawing;
+using System.Threading;
+using Accord.Video.FFMPEG;
+
+namespace Whatever
+{
+
 class WebCamOperator
     {
         public WebCamOperator(string streamURL, string Path)
@@ -147,3 +156,4 @@ class WebCamOperator
 
 
     }
+}
